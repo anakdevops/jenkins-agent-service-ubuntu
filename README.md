@@ -1,6 +1,9 @@
 git clone 
 
-cd jenkins-agent-service-ubuntu 
+```
+cd jenkins-agent-service-ubuntu
+nano create-agent-jenkins.sh
+```
 
 # setting variable
 
