@@ -23,7 +23,7 @@ sh ./create-agent-jenkins.sh
 # Jenkins
 
 ```
-docker run -u root --name jenkins-dev -d -v /data_jenkins:/var/jenkins_home -p 8088:8080 -p 50000:50000 jenkins/jenkins:jdk17
+docker run -u root --name jenkins-dev -d -v /data_jenkins:/var/jenkins_home -p 8088:8080 -p 50000:50000 jenkins/jenkins:latest
 ```
 
 enjoy
